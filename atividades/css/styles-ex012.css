@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+
+.container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 100px);
+gap: 15px;                  /*Gera um espaço entre os blocos*/
+}
+
+.item1{
+background-color: aquamarine;
+font-size: 16pt;
+text-align: center;
+/*grid-column-start: 2;     Inicia o bloco pulando uma coluna*/
+/*grid-row-start: 2;        Inicia o bloco pulando uma linha*/
+grid-column: 1/3;
+grid-row: 1/3;
+}
+
+.item2{
+background-color: bisque; 
+font-size: 16pt;
+text-align: center;
+}
+
+.item3{
+background-color: darkgoldenrod;
+font-size: 16pt;
+text-align: center;  
+}
+
+.item4{
+background-color: darkslategray;
+font-size: 16pt;
+text-align: center; 
+}
+
+.item5{
+background-color: indianred;
+font-size: 16pt;
+text-align: center;  
+}
+
+.item6{
+background-color:darkslateblue;
+font-size: 16pt;
+text-align: center;  
+}

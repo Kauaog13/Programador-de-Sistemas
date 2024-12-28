@@ -1,0 +1,34 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10pt;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item {
+    width: 20%;
+    height: 150px;
+    background-color: rgb(28, 145, 255);
+    border: 3px solid black;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: turquoise;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}

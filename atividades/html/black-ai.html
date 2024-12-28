@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="fundo">
+            <div class="login">
+                <h1>Login</h1>
+                <form>
+                    <label for="usuario">Nome de Usuário:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                    <button type="submit">Entrar</button>
+                    <p>Esqueceu a senha? <a href="recuperar-senha.html">Recuperar senha</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fundo {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to bottom, #3498db, #2ecc71);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login {
+        width: 300px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .login h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .login form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login label {
+        margin-bottom: 10px;
+    }
+
+    .login input {
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .login button {
+        padding: 10px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .login button:hover {
+        background-color: #2ecc71;
+    }
+
+    .login p {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .login a {
+        text-decoration: none;
+        color: #3498db;
+    }
+
+    .login a:hover {
+        color: #2ecc71;
+    }

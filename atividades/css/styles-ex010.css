@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+
+.container{
+display: grid;
+}
+
+.item1{
+background-color: greenyellow;
+font-size: 16pt;
+text-align: center;
+}
+
+.item2{
+background-color: yellow; 
+font-size: 16pt;
+text-align: center;
+}
+
+.item3{
+background-color: red;
+font-size: 16pt;
+text-align: center;  
+}

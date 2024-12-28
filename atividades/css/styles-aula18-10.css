@@ -1,0 +1,39 @@
+body{
+    font-size: 25px;
+}
+
+/*IDS*/
+
+#p-um {
+    color: pink;
+}
+
+#p-dois {
+    color: yellow;
+}
+
+#p-tres {
+    color: blue;
+    font-family: Lucida Sans;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center; text-align: justify;
+    line-height: 1.5;
+    text-indent: 20px;
+    text-shadow: -5px 1px aqua ;
+    background-color: aliceblue;
+}
+
+/*CLASSES*/
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.purple {
+    color: purple;
+}

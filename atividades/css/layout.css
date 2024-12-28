@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    width: 1500px;
+    padding: 50px;
+    background-color: gray;
+}
+
+#div-pai{
+    width: 1500px;
+    height: 450px;
+    background-color: white;
+}
+
+#div-rodape-pai{
+    width: 1250px;
+    height: 250px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.esquerda{
+    float: left;
+}
+
+.direita{
+    float: right;
+}
+
+
+
+#div1 {
+    width: 1000px;
+    height: 215px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 30px;
+    font-size: 72pt;
+    font-weight: bold;
+}
+
+
+#div2 {
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    float: right;
+    margin-left: 20px;
+}
+
+
+#div3 {
+    width: 1000px;
+    height: 215px;
+    background-color: white;
+}
+
+
+#div4 {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+}
+
+
+#div5 {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+
+#div6 {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    margin-left: 20px;
+}

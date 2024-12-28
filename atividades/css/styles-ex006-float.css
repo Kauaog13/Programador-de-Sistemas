@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    cursor: crosshair;
+}
+
+                                        /*CORES PARAGRÁFOS*/
+#red-one{
+text-shadow: 3px 3px rgb(119, 72, 72);
+color: red;
+font-weight: bold;
+font-style: oblique;
+}
+
+#blue-one{
+    text-shadow: 3px 3px rgb(0, 139, 139);
+    color: cyan;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+                                        /*BLOCOS DA PÁGINA*/
+#block-one{
+background-color: red;
+color: black;
+width: 24%;
+height: 100%;
+text-align: center;
+font-size: 28pt;
+font-family:'Trebuchet MS';
+border-radius: 0px 0px 0px 0px;
+border: 5px dashed;
+border-color: black;
+float: left;
+padding: 0.5px;
+overflow: hidden;
+}
+
+#block-two{
+background-color: cyan;
+color: black;
+width: 74%;
+height: 100%;
+text-align: center;
+font-size: 28pt;
+font-family:'Trebuchet MS';
+border-radius: 0px 0px 0px 0px;
+border: 5px dashed;
+border-color: black;
+float: right;
+padding: 0.5px;
+overflow: hidden;
+}

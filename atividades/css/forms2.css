@@ -1,0 +1,134 @@
+/* Estilo básico para a página inteira */
+body {
+    font-family:'Segoe UI';
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, #00eeff,#00ccff, #0099ff, #006eff, rgb(163, 83, 255));
+    /* Defina a cor de fundo com gradiente de cores desejada */
+}
+
+/* Estilo para o formulário */
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4fcff;
+    /* Defina a cor de fundo do formulário */
+    border-radius: 10px;
+    /* Sombra suave */
+    box-shadow: 0px 2px 15px black;
+}
+
+/* Estilo para os fieldsets */
+fieldset {
+    border: 2px solid #000000;
+    padding: 20px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para as legendas */
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para as labels */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Estilo para os campos de entrada e elementos de seleção */
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Estilo para os campos de entrada em foco */
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+    border-color: #2d8fff;
+    /* Destaque os campos de entrada em foco */
+    outline: none;
+}
+
+/* Estilo para os campos de entrada de rádio e checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#div-botoes {
+    text-align: center;
+}
+
+#div-serie, #div-atv-extra, #div-turno{
+    margin-bottom: 10px;
+}
+
+/* Estilo para os botões de envio e reset */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+/* Efeito de hover para os botões */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #388e3c;
+    /* Verde mais escuro no hover */
+}
+
+/* Estilo específico para o botão de reset */
+input[type="reset"] {
+    background-color: #f44336;
+    /* Vermelho para o botão de reset */
+}
+
+input[type="reset"]:hover {
+    background-color: #d32f2f;
+    /* Vermelho mais escuro no hover */
+}
+
+/* Estilo específico para um campo de entrada de texto com largura fixa */
+input[type="text"][style] {
+    width: 30px;
+}
+
+/* Design responsivo para telas menores */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 100%;
+    }
+}

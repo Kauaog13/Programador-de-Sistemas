@@ -1,0 +1,17 @@
+#div1 {
+    background-color: red;
+}
+
+#div2 {
+    background-color: blue;
+}
+
+.ativo {
+    background-color: yellow;
+}
+
+#campoTexto3 {
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 16px;
+}

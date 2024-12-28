@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+/*Caixa Pai*/
+.container{
+    font-family:Verdana;                /*Trocando a Fonte*/
+    cursor:crosshair;                   /*Altera o ponteiro do mouse*/
+    text-align: center;                 /*Alinha os conteúdos dentro das boxes*/
+    display: flex;                      /*Torna os seus filhos flexiveis*/
+    flex-direction: row;                /*Reverte os blocos em Linhas ou Colunas*/
+    flex-wrap: wrap;                    /*Quebra a linha passando os blocos para linha de baixo*/
+    justify-content: center;            /*Alinha no main axis*/
+    align-items: flex-start;            /*Alinha no eixo cross axis */
+}
+
+/*Caixas Filhos*/
+#one{
+width: 25%;
+height: 250px;
+background-color: rgb(200, 200, 200);
+}
+
+#two{
+    width: 25%;
+    height: 250px;
+    background-color: rgb(180, 180, 180);
+}
+
+#three{
+    width: 25%;
+    height: 250px;
+    background-color: rgb(160, 160, 160);
+}
+
+#four{
+    width: 25%;
+    height: 250px;
+    background-color: rgb(140, 140, 140);
+}
+
+#five{
+    width: 25%;
+    height: 250px;
+    background-color: rgb(120, 120, 120);
+}
+
+#six{
+    width: 25%;
+    height: 250px;
+    background-color: rgb(100, 100, 100);
+}
+
+#seven{
+    width: 25%;
+    height: 250px;
+    background-color: rgb(80, 80, 80);
+}
+
+#eight{
+    width: 25%;
+    height: 250px;
+    background-color: rgb(60, 60, 60);
+}
+

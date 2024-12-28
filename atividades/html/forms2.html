@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Kauã/aulas-teste/css/forms2.css">
+    <title>Pré Matrícula - Escola Virtual</title>
+</head>
+
+<body>
+    <h1 style="text-align: center; font-size: 80px;">Escola Virtual</h1>
+
+    <h2 style="text-transform: capitalize; text-align: center; font-size: 30px;">Formulários de Pré-Matrícula</h2>
+
+    <!-- input, select, radio, check, button, fieldset, label, textarea, focus-quando a caixa fica selecionada, hover-quando passa o mouse -->
+
+    <form action="dados_do_form" method="post">
+        <!-- pra onde envia e como envia o formulário: get: VISÍVEL NA URL, post: INVISÍVEL/OCULTO -->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome-aluno" style="font-weight: bold;">Nome do Aluno</label>
+            <input type="text" id="nomeAluno" name="Nome Aluno" placeholder="Ex: Fulano da Silva" required><br>
+
+            <label for="data-nascimento" style="font-weight: bold;">Data de Nascimento: (dd/mm/aaaa)</label>
+            <input type="date" id="dataNascimento" name="Data de Nascimento" required><br>
+
+            <label for="nome-mae" style="font-weight: bold;">Nome da Mãe:</label>
+            <input type="text" id="nomeMae" name="Nome da Mãe" placeholder="Nome da mãe completo" required><br>
+
+            <label for="nome-pai" style="font-weight: bold;">Nome do Pai:</label>
+            <input type="text" id="nomePai" name="Nome do Pai" placeholder="Nome do pai completo"><br>
+
+            <label for="tel-ddd" style="font-weight: bold;">Tel DDD:</label>
+            (<input type="text" id="telDDD" name="Tel DDD" size="2" style="width: 20px;" maxlength="2" required>)
+
+            <label for="tel" style="font-weight: bold;">Tel:</label>
+            <input type="tel" id="tel" name="Tel" maxlength="10" placeholder="Ex: 99999-9999" required><br>
+
+            <label for="ramal" style="font-weight: bold;">Ramal:</label>
+            <input type="number" id="ramal" name="Ramal"><br>
+
+            <label for="email" style="font-weight: bold;">E-mail:</label>
+            <input type="email" id="email" name="E-mail" placeholder="Ex: SeuEmail@gmail.com" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações de Matrícula</legend>
+            <div id="div-serie">
+                <label for="serie" style="font-weight: bold;"> Série: </label><br>
+                <select name="serie" id="serie" required>
+
+                    <option value="">Selecione uma opção:</option>
+                    <option value="Pré-escolar">Pré-escolar</option>
+                    <option value="escolar">Escolar</option>
+                </select>
+            </div>
+
+            <div id="div-turno">
+                <label for="turno" style="font-weight: bold;"> Turno: </label>
+
+                <input type="radio" name="turno" value="manha" required> Manhã <br>
+                <input type="radio" name="turno" value="tarde" required> Tarde <br>
+            </div>
+
+            <div id="div-atv-extra">
+
+                <label for="turno" style="font-weight: bold;"> Atividades Extra-currículares: </label>
+
+                <input type="checkbox" id="extraInfo" name="Atividades-Extra">Informática
+                <label for="informatica"></label>
+
+                <input type="checkbox" id="extraMusi" name="Atividades-Extra">Música
+                <label for="musica"></label>
+
+                <input type="checkbox" id="extraBale" name="Atividades-Extra">Ballet
+                <label for="ballet"></label>
+
+                <input type="checkbox" id="extraPint" name="Atividades-Extra">Pintura
+                <label for="pintura"></label>
+
+                <input type="checkbox" id="extraJudo" name="Atividades-Extra">Judô
+                <label for="judo"></label>
+
+                <input type="checkbox" id="extraFute" name="Atividades-Extra">Futebol
+                <label for="futebol"></label>
+
+            </div>
+        </fieldset>
+
+        <input type="submit" onclick="validarCampos()" value="Enviar Formulário">
+        <input type="reset" value="Limpar Campos">
+    </form>
+
+    <script src="/Kauã/aulas-teste/js/forms2.js"></script>
+
+</body>
+
+</html>

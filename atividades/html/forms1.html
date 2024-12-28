@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Kauã/aulas-teste/css/forms1.css">
+    <title>Formulário - Escola Virtual</title>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">Escola Virtual</h1>
+    <h2 style="text-transform: capitalize; text-align: center;">Formulário de Pré-Matricula</h2>
+
+    <form action="" method="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="">Nome do Aluno:</label>
+            <input type="text" placeholder="Digite o nome do aluno"><br>
+
+            <label for="">Data de Nasc:</label>
+            <input type="text" placeholder="Dia">/<input type="text" placeholder="Mês">/<input type="text"
+                placeholder="Ano"><br>
+
+            <label for="">Nome da Mãe:</label>
+            <input type="text" placeholder="Digite o nome da Mãe"><br>
+
+            <label for="">Nome do Pai:</label>
+            <input type="text" placeholder="Digite o nome do Pai"><br>
+
+            <label for="">Tel DDD:</label>
+            (<input type="number" placeholder="">)
+
+            <label for="">Tel:</label>
+            <input type="tel" placeholder="">
+
+            <label for="">Ramal:</label>
+            <input type="number" placeholder=""><br>
+
+            <label for="">E-mail:</label>
+            <input type="email" placeholder="Digite o email"><br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Informações de Matrícula</legend>
+
+            <div id="div-serie">
+                <label for="">Series:</label><br>
+                <select name="" id="">
+                    <option value="">Selecione um</option>
+                    <option value="">Escolar</option>
+                    <option value="">Pré-Escolar</option>
+                </select>
+            </div>
+
+            <div id="div-turno">
+                <label for="">Turno:</label><br>
+                <input type="radio" name="turno" value="manha">Manhã<br>
+                <input type="radio" name="turno" value="Tarde">Tarde<br>
+            </div>
+
+            <div id="div-atvd-extra">
+                <label for="">Atividades Extracurrículares:</label><br>
+                <input type="checkbox" name="atividades" value="info">Informática<br>
+                <input type="checkbox" name="atividades" value="musi">Música<br>
+                <input type="checkbox" name="atividades" value="ball">Ballet<br>
+                <input type="checkbox" name="atividades" value="pint">Pintura<br>
+                <input type="checkbox" name="atividades" value="judo">Judô<br>
+                <input type="checkbox" name="atividade" value="fute">Futebol<br>
+            </div>
+
+        </fieldset>
+        <div id="div-botoes">
+            <input type="submit" name="Envia Formulário">
+            <input type="reset" name="Reseta Formulário">
+        </div>
+
+    </form>
+
+</body>
+
+</html>

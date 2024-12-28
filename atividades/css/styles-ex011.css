@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+
+.container{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(3, auto 80px 100px);               /*Gera um espaço entre os blocos*/
+}
+
+.item1{
+background-color: red;
+font-size: 16pt;
+text-align: center;
+}
+
+.item2{
+background-color: tomato; 
+font-size: 16pt;
+text-align: center;
+}
+
+.item3{
+background-color: orange;
+font-size: 16pt;
+text-align: center;  
+}
+
+.item4{
+background-color:yellow;
+font-size: 16pt;
+text-align: center; 
+}
+
+.item5{
+background-color: gold;
+font-size: 16pt;
+text-align: center;  
+}
+
+.item6{
+background-color: greenyellow;
+font-size: 16pt;
+text-align: center;  
+}
+
+.item7{
+background-color: yellowgreen;
+font-size: 16pt;
+text-align: center;  
+}
+
+.item8{
+background-color:green;
+font-size: 16pt;
+text-align: center;  
+}
+
+.item9{
+background-color: teal;
+font-size: 16pt;
+text-align: center;  
+}
